@@ -32,6 +32,12 @@ nav {
     font-family: poppins;
 }
 
+nav a {
+    color: #1E1F38;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
 #logo {
     padding: 0px 120px 0px 150px;
 }
@@ -39,6 +45,7 @@ nav {
 .menu {
     display: flex;
     gap: 45px;
+    
 }
 
 #flag {
@@ -48,17 +55,20 @@ nav {
 .right_end {
     display: flex;
     font-family: oxygen;
-    padding: 10px 35px 10px 35px;
+    padding: 10px 35px;
     background-color: var(--orange);
     margin: 0px 20px 0px 80px;
     border-radius: 5px;
     color: #ffffff;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
 }
 
 .header_items {
     display: flex;
-    /* gap: 80px; */
-    /* padding: 80px 0px 0px 120px; */
 }
 
 .header_text {
@@ -101,11 +111,24 @@ nav {
 }
 
 #create {
+    display: flex;
     font-family: oxygen;
+    padding: 10px 50px;
     background-color: var(--orange);
     border-radius: 5px;
     color: #ffffff;
-    padding: 10px 50px 10px 50px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: large;
+}
+
+#text-button {
+    color: var(--orange);
+    padding-top: 15px;
+    font-family: poppins;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .space {
@@ -146,6 +169,10 @@ article {
     padding: 15px 0px 15px 0px;
 }
 
+.article_item a {
+    text-decoration: none;
+}
+
 .article_items h4 {
     color: var(--orange);
 }
@@ -161,7 +188,6 @@ article {
     font-size: 15px;
     font-weight: 800; 
     font-family: oxygen; 
-    cursor: pointer;
 }
 
 .article_ending_freedom {
@@ -267,7 +293,13 @@ article {
     padding: 5px 27px 5px 27px;
     justify-content: center;
     border-radius: 5px;
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
+    border-color: var(--orange3);
+    text-align: center;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .become_button {
@@ -275,9 +307,13 @@ article {
     color: var(--orange3);
     border-color: var(--orange3);
     justify-content: center;
-    padding: 3px 25px 3px 25px;
+    padding: 3px 25px;
     border-style: solid;
     border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .agent_img1 {
@@ -402,6 +438,11 @@ footer {
     font-family: oxygen;
 }
 
+footer a {
+    text-decoration: none;
+    color: #1E1F38;
+}
+
 .footer_text {
     color: #1E1F38;
     display: flex;
@@ -484,4 +525,513 @@ footer p {
 
 .footerend span {
     padding: 0px 10px 0px 30px;
+}
+
+@media only screen and (max-width: 995px) {
+    header {
+        width: 100%;
+        height: 740px;
+        background-color:  var(--orange2);
+    }
+    
+    nav {
+        display: flex;
+        padding-top: 40px;
+        font-family: poppins;
+    }
+    
+    nav a {
+        color: #1E1F38;
+        text-decoration: none;
+        text-decoration-line: none;
+    }
+    
+    #logo {
+        padding: 0px 120px 0px 150px;
+    }
+    
+    .menu {
+        display: flex;
+        gap: 45px;
+        
+    }
+    
+    #flag {
+        padding: 0px 65px 0px 65px;
+    }
+    
+    .right_end {
+        display: flex;
+        font-family: oxygen;
+        padding: 10px 35px;
+        background-color: var(--orange);
+        margin: 0px 20px 0px 80px;
+        border-radius: 5px;
+        color: #ffffff;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+    }
+    
+    .header_items {
+        display: flex;
+    }
+    
+    .header_text {
+        padding: 80px 0px 0px 150px;
+        font-family: poppins;
+        width: 40%;
+    }
+    
+    .header_text p small {
+        color: var(--orange);
+        padding-bottom: 60px;
+    }
+    
+    .header_itemsright {
+        padding: 120px 100px 150px 50px;
+        width: 50%;
+    }
+    
+    .header_image {
+        background-color: var(--orange);
+        margin-left: 120px;
+        margin-top: 60px;
+        border-radius: 50%;
+        height: 300px;
+        width: 315px;
+        padding: 60px;
+        position: relative;
+    } 
+    
+    .img {
+        position: absolute;
+        top: 30%;
+        right: 120px;
+    }
+        
+    .header_endtext {
+        display: flex;
+        margin: 50px 20px 0px 0px;
+        gap: 60px;
+    }
+    
+    #create {
+        display: flex;
+        font-family: oxygen;
+        padding: 10px 50px;
+        background-color: var(--orange);
+        border-radius: 5px;
+        color: #ffffff;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        font-size: large;
+    }
+    
+    #text-button {
+        color: var(--orange);
+        padding-top: 15px;
+        font-family: poppins;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    .space {
+        width: 100%;
+        height: 150px;
+    }
+    
+    article {
+        padding-left: 200px;
+        font-family: Oxygen;
+    }
+    
+    .article_text {
+        font-size: xx-large;
+        font-weight: bolder;
+        line-height: 65px;
+        width: 40%;
+        padding-bottom: 50px;
+    }
+    
+    .article_items {
+        display: flex;
+        gap: 3%;
+        padding-bottom: 48px;
+    }
+    
+    .article_item {
+        background-color: var(--orange2);
+        padding: 50px;
+        width: 20%;
+        border-radius: 25px;
+        line-height: 25px;
+        height: 250px;
+    }
+    
+    .article_item h3 {
+        color: var(--orange);
+        padding: 15px 0px 15px 0px;
+    }
+    
+    .article_item a {
+        text-decoration: none;
+    }
+    
+    .article_items h4 {
+        color: var(--orange);
+    }
+    
+    .why-paga-button {
+        color: var(--orange3);
+        background-color: #FDB913; 
+        border-radius: 30px;
+        margin: auto;
+        border: none;
+        text-align: center;
+        padding: 5px 40px; 
+        font-size: 15px;
+        font-weight: 800; 
+        font-family: oxygen; 
+    }
+    
+    .article_ending_freedom {
+       text-align: center;
+        font-size: x-large;
+        font-family: oxygen; 
+    }
+    
+    .article_ending_badges {
+        display: flex;
+        text-align: center;
+        font-family: oxygen;
+        gap: 10%;
+        justify-content: center;
+        padding-top: 75px;
+    }
+    
+    .article_ending_badge {
+        width: 17%;
+        height: 245px;
+        line-height: 20px;
+        font-weight: 400;
+        font-size: 16px;
+        padding-bottom: 100px;
+    }
+    
+    .billers {
+        background-color: var(--orange2);
+        width: 100%;
+        height: 759px;
+        margin-bottom: 100px;
+    }
+    
+    .billers_text {
+        font-family: oxygen;
+        line-height: 60px;
+        margin: auto;
+        padding: 52px 152px;
+    }
+    
+    .billers_logo {
+        display: flex;
+        gap: 3.5%;
+        justify-content: center;
+        margin: auto;
+        padding-bottom: 52px;
+    }
+    
+    .agents {
+        display: flex;
+        background-color: var(--orange);
+        border-radius: 30px;
+        width: 70%;
+        height: 490px;
+        margin: auto;
+        padding: 10px 110px;
+        font-family: oxygen;
+        color: var(--orange3);
+        margin-bottom: 100px;
+    }
+    
+    .agent_left {
+        padding-top: 50px;
+    }
+    
+    .agent_button {
+        color: var(--orange3);
+        background-color: #FDB913; 
+        border-radius: 40px;
+        border: none;
+        text-align: center;
+        padding: 5px 40px; 
+        font-size: 15px;
+        font-weight: 800; 
+        width: 120px;
+    }
+    
+    .agent_msg {
+        width: 445px;
+    }
+    
+    .agent_msg h1{
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 112.5%;
+        padding: 20px 0px 20px 0px;
+    }
+    
+    .agent_msg p {
+        font-size: 20px;
+        line-height: 150%;
+    }
+    
+    .agents_button {
+        display: flex;
+        gap: 10px;
+        padding-top: 50px;
+    }
+    
+    .find_button {
+        background-color: var(--orange3);
+        color: var(--orange);
+        padding: 5px 27px 5px 27px;
+        justify-content: center;
+        border-radius: 5px;
+        padding: 10px;
+        border-color: var(--orange3);
+        text-align: center;
+        border: none;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    .become_button {
+        background-color: var(--orange);
+        color: var(--orange3);
+        border-color: var(--orange3);
+        justify-content: center;
+        padding: 3px 25px;
+        border-style: solid;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    .agent_img1 {
+        position: relative;
+        top: 8%;
+        left: 160px
+    }
+    
+    .agent_img2 {
+        position: relative;
+        top: 15%;
+        left: 270px
+    }
+    
+    .agent_img3 {
+        position: relative;
+        top: 55%;
+        right: 75px; 
+    }
+    
+    .customer {
+        display: flex;
+        text-align: center;
+        font-family: oxygen;
+        gap: 10%;
+        justify-content: center;
+        margin: auto;
+        padding: 50px 50px;
+    }
+    
+    .customer_badge {
+        width: 15%;
+        height: 200px;
+        padding-bottom: 100px;
+        
+    }
+    
+    .customer_badge img {
+        width: 170px;
+        height: 170px;
+    }
+    
+    .customer_badge span {
+       padding: 0px 15px 0px 15px;
+    }
+    
+    .customer_badge p {
+        font-size: 14px;
+        line-height: 20px;
+        color: #1E1F38;
+        font-weight: lighter;
+    }
+    
+    
+    
+    .spot {
+        padding-left: 675px;
+        justify-content: center;
+        padding-bottom: 100px;
+    } 
+    
+    .partners {
+        font-family: oxygen;
+        line-height: 50px;
+        margin: auto;
+        padding: 35px 152px;
+    }
+    
+    
+    .download {
+        display: flex;
+        background-color: var(--orange);
+        border-radius: 30px;
+        width: 70%;
+        height: 404px;
+        margin: auto;
+        padding: 10px 110px;
+        font-family: oxygen;
+        color: var(--orange3);
+        margin-bottom: 100px;
+    }
+    
+    .download_left {
+        padding-top: 50px;
+    }
+    
+    .paga_button {
+        color: var(--orange3);
+        background-color: #FDB913; 
+        border-radius: 50px;
+        border: none;
+        text-align: center;
+        padding: 3px 15px; 
+        font-weight: 800; 
+        width: 180px;
+    }
+    
+    .download_msg {
+        width: 400px;
+        font-weight: 700;
+        line-height: 40px;
+        padding: 20px 0px 20px 0px;
+    }
+    
+    .download_button {
+        display: flex;
+        gap: 10px;
+        padding-top: 50px;
+    }
+    
+    .download_img {
+        position: relative;
+        top: 13.5%;
+        left: 300px
+    }
+    
+    
+    footer {
+        width: 100%;
+        height: 450px;
+        background-color: var(--orange2);
+        font-family: oxygen;
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: #1E1F38;
+    }
+    
+    .footer_text {
+        color: #1E1F38;
+        display: flex;
+        padding-left: 80px;
+        padding-top: 75px;
+        font-size: small;
+    }
+    
+    .footer_text h2 {
+        color: var(--orange4);
+    }
+    
+    .icons {
+        display: flex;
+        padding-top: 40px;
+    }
+    
+    .icons div {
+        margin-right: 20px;
+        background-color: #e3adad;
+        position: relative;
+        border-radius: 28px;
+        opacity: 0.5;
+        width: 23px;
+        height: 23px;
+    }
+    
+    .icons i {
+       /* margin-right: 2.0px;*/
+        color: var(--orange4);
+        font-size: 13px;
+        position: absolute;
+        left: 5.5px;
+        top: 22%;
+    }
+    
+    
+    .footer_paga {
+        width: 278px;
+        padding-left: 40px;
+    }
+    
+    .footer_about {
+        padding-left: 95px;
+        padding-right: 40px;
+    }
+    
+    .footer_products {    
+        padding-left: 95px;
+        padding-right: 60px;
+    }
+    
+    .footer_links {
+        padding-left: 95px;
+        padding-right: 60px;
+    }
+    
+    .footer_reach_us {
+        padding-left: 95px; 
+        padding-right: 40px;
+    }
+    
+    .footer_reach_us i {
+        padding-right: 10px;
+        color: var(--orange4);
+    }
+    
+    footer p {
+        padding-top: 10px;
+    }
+    
+    .footerend {
+        display: flex;
+        color: #1E1F38;
+        display: flex;
+        padding-left: 80px;
+        padding-top: 60px;
+        font-size: x-small;
+    }
+    
+    .footerend span {
+        padding: 0px 10px 0px 30px;
+    }
 }
